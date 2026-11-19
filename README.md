@@ -38,6 +38,7 @@ cerrado-arretado/
 ├── App.js              # Ponto de entrada e rotas principais
 ├── app.json            # Configurações do Expo
 └── package.json        # Dependências do projeto
+
 ⚙️ Como Executar o Projeto Localmente
 Pré-requisitos
 Certifique-se de ter o Node.js e o npm (ou yarn/pnpm) instalados na sua máquina, além do aplicativo Expo Go no seu celular (ou um emulador configurado).
@@ -46,15 +47,18 @@ Certifique-se de ter o Node.js e o npm (ou yarn/pnpm) instalados na sua máquina
 Bash
 git clone [https://github.com/SEU-USUARIO/cerrado-arretado.git](https://github.com/SEU-USUARIO/cerrado-arretado.git)
 cd cerrado-arretado
+
 2. Instalar as dependências
 Bash
 npm install
+
 3. Configurar as variáveis de ambiente
 Crie um arquivo .env na raiz do projeto baseando-se no arquivo .env.example e adicione as suas credenciais do Supabase:
 
 Fragmento do código
 EXPO_PUBLIC_SUPABASE_URL=sua_url_do_supabase_aqui
 EXPO_PUBLIC_SUPABASE_ANON_KEY=sua_chave_anon_do_supabase_aqui
+
 4. Iniciar o projeto
 Bash
 npx expo start
